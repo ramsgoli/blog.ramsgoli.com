@@ -1,7 +1,8 @@
 ---
 title: "The Beginning"
+description: The time is now!
 date: 2018-08-23T20:10:33-07:00
-draft: true
+draft: false
 ---
 
 I've been meaning to create this blog for a long time now. The biggest two reasons that have been
@@ -17,7 +18,7 @@ I care too much about what people think of me, and I have this idea that _other_
 version of me, and I need to live up to that ideal. But I'm not too big of a fan of that. Maybe here,
 I'll start to whittle away at the one voice that I really like, my voice.
 
-I used to read **a lot** of tech blog articles. And I still do. But lately, I've been straying away from
+I used to read _a lot_ of tech blog articles. And I still do. But lately, I've been straying away from
 that weathered trail. It's been awesome. I've been debating with my friends about
 really intriguing/mind-bending topics. I've been trying to open up to my friends more. I go on Medium
 and read stories written by mothers who deal with the stress of post-labor. There's a lot of life out there.

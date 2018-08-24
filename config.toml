@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://blog-8b419.firebaseapp.com/"
 themesDir = "./themes"
 languageCode = "en-us"
 title = "Blog | Ram Goli"
@@ -25,15 +25,14 @@ googleAnalytics = ""
 	# translate or customize each string of the theme.
 
 	# Navigation links
-	home = "http://blog.ramsgoli.com"
+	home = "https://blog-8b419.firebaseapp.com/"
 	subscribe = ""
 	# Pagination links
 	olderPosts = ""
 	newerPosts = ""
-	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an blogger."
+	aboutAuthor = "Just a guy being a guy"
 	tweet = ""
 	share = ""
 	# 404 page
