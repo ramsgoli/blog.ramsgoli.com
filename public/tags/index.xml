@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog | Ram Goli</title>
-    <link>https://blog-8b419.firebaseapp.com/tags/</link>
+    <link>https://blog.ramsgoli.com/tags/</link>
     <description>Recent content in Tags on Blog | Ram Goli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://blog-8b419.firebaseapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ramsgoli.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
