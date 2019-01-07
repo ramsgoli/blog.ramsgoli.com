@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://blog.ramsgoli.com/"
+baseurl = "https://ramgo.li/"
 themesDir = "./themes"
 languageCode = "en-us"
 title = "Blog | Ram Goli"
