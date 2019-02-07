@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Ram Goli">
+<meta name="description" content="student, programmer, frisbee player, aspiring entrepreneur and blogger">
+<meta name="generator" content="Hugo 0.47.1" />
+<title>Hypothesis Testing With Simple Linear Regression</title>
+<link rel="shortcut icon" href="https://ramgo.li/images/favicon.ico">
+<link rel="stylesheet" href="https://ramgo.li/css/style.css">
+<link rel="stylesheet" href="https://ramgo.li/css/highlight.css">
+
+<link rel="stylesheet" href="https://ramgo.li/css/custom-style.css">
+
+
+
+<link rel="stylesheet" href="https://ramgo.li/css/monosocialiconsfont.css">
+
+
+
+<link href="https://ramgo.li/index.xml" rel="alternate" type="application/rss+xml" title="Blog | Ram Goli" />
+
+
+<meta property="og:title" content="Hypothesis Testing With Simple Linear Regression" />
+<meta property="og:description" content="Understanding and using statistical measures when developing models" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ramgo.li/posts/simple-linear-regression/" /><meta property="article:published_time" content="2019-01-07T00:46:32-08:00"/>
+<meta property="article:modified_time" content="2019-01-07T00:46:32-08:00"/>
+
+
+<meta itemprop="name" content="Hypothesis Testing With Simple Linear Regression">
+<meta itemprop="description" content="Understanding and using statistical measures when developing models">
+
+
+<meta itemprop="datePublished" content="2019-01-07T00:46:32-08:00" />
+<meta itemprop="dateModified" content="2019-01-07T00:46:32-08:00" />
+<meta itemprop="wordCount" content="654">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hypothesis Testing With Simple Linear Regression"/>
+<meta name="twitter:description" content="Understanding and using statistical measures when developing models"/>
+<meta name="twitter:site" content="@https://www.twitter.com/"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://ramgo.li/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://ramgo.li/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Hypothesis Testing With Simple Linear Regression</h1>
+        <h2 class="subtitle">Understanding and using statistical measures when developing models</h2>
+        <h2 class="headline">
+        January 7, 2019
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<h2 id="is-there-a-relationship-between-a-father-s-height-and-his-son-s-height">Is there a relationship between a father&rsquo;s height and his son&rsquo;s height?</h2>
+
+<p>These kinds of questions and more are ones that we can answer with simple statistical tests.
+<img src="/img/simple-regression/plot.png" />
+<br />
+The above plot contains 1082 data points, which we might call &ldquo;training examples&rdquo; from a learning
+standpoint, plotting a male&rsquo;s height on the x-axis, and his son&rsquo;s height on the y-axis. To the
+naked eye, it appears that there is an upward trend in the data; taller fathers tend to have
+taller sons, and vice versa.</p>
+
+<h2 id="linear-regression">Linear Regression</h2>
+
+<p>Using linear regression, we can come up with a simple linear model that can fit this data,
+and possibly allow us to make predictions about a son&rsquo;s height, given the father&rsquo;s height. Such a model would
+have the following form:
+$$Y = \beta_0 + \beta_1X + \epsilon$$
+where $\beta_1$ is the slope of our model, $\beta_0$ is the intercept, $\epsilon$ is a random
+variable which describes the noise in our model, $Y$ is the target value, and $X$ is a predictor value.
+<br/>
+Note that we only use one explanatory variable in this model, $X$, which represents the height
+of the father, in calculating our target value, the height of the son.
+<hr/>
+Using <strong>numpy</strong>, we can calculate <em>estimations</em> for $\beta_0$ and $\beta_1$, and then come up with
+the following model:
+$$\hat{Y} = \hat{\beta_0} + \hat{\beta_1}X$$
+where $\hat{\beta_0}$ and $\hat{\beta_1}$ are our estimations for the true parameters of the model
+$\beta_0$ and $\beta_1$, respectively.</p>
+
+<pre><code class="language-python">import numpy as np
+
+poly = np.polyfit(x, y, deg=1, full=True)
+b1, b0 = poly[0]
+</code></pre>
+
+<p>This is great. We now have estimated parameters for our model.</p>
+
+<h2 id="hypothesis-testing">Hypothesis Testing</h2>
+
+<p>Because our model only contains one explanatory variable, it is easy to plot the data and use our
+eyes to guage whether there is a relationship between X and Y, i.e. $\beta_1 \neq 0$. In the real world,
+we might have tens or hundreds of explanatory variables in our dataset, and we might want to
+examine the dataset for relationships between the variables, before
+trying to fit large, unecessay models. We can come up with two hypotheses for our height
+dataset:</p>
+
+<ul>
+<li>Null hypothesis: There is no relationship between a father&rsquo;s height and a son&rsquo;s height</li>
+<li>Alternate hypothesis: There is a relationship between a father&rsquo;s height and a son&rsquo;s height</li>
+</ul>
+
+<p>In order to reject or accept our null hypothesis, we can perform a <code>t-test</code>.</p>
+
+<pre><code class="language-python">n = len(x)
+xBar = np.mean(x)
+se = np.sqrt((residuals / (n-2)) / np.sum([np.square(xi-xBar) for xi in x]))
+tTest = b1 / se
+</code></pre>
+
+<p>In our dataset, the t-statistic comes to <strong>0.20012</strong>. This corresponds to a p-value of
+&lt; .05. We can then reject our null hypothesis, and say that there is a relationship between
+a father&rsquo;s height and a son&rsquo;s height.</p>
+
+<h2 id="evaluating-r-2">Evaluating $R^2$</h2>
+
+<p>The $R^2$ is a statistical measure used in regression analysis to conclude how close the real
+data fits to our computed regression line. It is a ratio which tells the the <em>fraction of variance
+explained</em>.</p>
+
+<p>We define the <em>residual sum of squares</em>, or $SS_{res}$, as follows
+$$SS_{res} = \sum_i^n (y_i - \hat{y_i})^2$$</p>
+
+<p>We define the <em>total sum of squares</em>, or $SS_{tot}$, as follows
+$$SS_{tot} = \sum_i^n (y_i - \bar{y})^2$$</p>
+
+<p>Finally, we will define $R^2$, our <em>coefficient of determination</em> as follows
+$$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$</p>
+
+<pre><code class="language-python">residuals = poly[1][0]
+yBar = np.mean(y)
+tss = np.sum([np.square(yi-yBar) for yi in y])
+rsquared = 1 - residuals/tss
+</code></pre>
+
+<p>In our dataset, $R^2$ comes out to <strong>0.2511</strong>, which means 25% of the variability in
+son&rsquo;s height can be explained by their father&rsquo;s height, while the remaining 75% of
+the variability is due to random noise.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/ramsgoli">
+    <img class="avatar" src="https://ramgo.li/images/avatar.png">
+    <div>
+        <span class="dark">Ram Goli</span>
+        <span>Just a guy being a guy</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2framgo.li%2fposts%2fsimple-linear-regression%2f - Hypothesis%20Testing%20With%20Simple%20Linear%20Regression by @ramsgoli"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ramsg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/new-what-is-devx/">What Is DevX<aside class="dates">Sep 14 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/24-hours-in-sf/">24 Hours in San Francisco<aside class="dates">Aug 26 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/posts/the-beginning/">The Beginning<aside class="dates">Aug 23 2018</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.facebook.com/">
+        circlefacebook
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/ramsgoli/">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2019 Ram Goli
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://ramgo.li/js/main.js"></script>
+<script src="https://ramgo.li/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-125743916-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>
