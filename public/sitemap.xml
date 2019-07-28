@@ -3,8 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ramgo.li/about/</loc>
+    <lastmod>2019-07-27T14:19:09-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/</loc>
+    <lastmod>2019-07-27T14:19:09-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ramgo.li/posts/simple-linear-regression/</loc>
     <lastmod>2019-01-07T00:46:32-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/posts/</loc>
+    <lastmod>2019-01-07T00:46:32-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,23 +37,6 @@
   <url>
     <loc>https://ramgo.li/posts/the-beginning/</loc>
     <lastmod>2018-08-23T20:10:33-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/</loc>
-    <lastmod>2019-01-07T00:46:32-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/posts/</loc>
-    <lastmod>2019-01-07T00:46:32-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

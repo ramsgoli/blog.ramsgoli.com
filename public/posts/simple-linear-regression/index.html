@@ -1,34 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Ram Goli">
-<meta name="description" content="student, programmer, frisbee player, aspiring entrepreneur and blogger">
-<meta name="generator" content="Hugo 0.47.1" />
-<title>Hypothesis Testing With Simple Linear Regression</title>
-<link rel="shortcut icon" href="https://ramgo.li/images/favicon.ico">
-<link rel="stylesheet" href="https://ramgo.li/css/style.css">
-<link rel="stylesheet" href="https://ramgo.li/css/highlight.css">
 
-<link rel="stylesheet" href="https://ramgo.li/css/custom-style.css">
-
-
-
-<link rel="stylesheet" href="https://ramgo.li/css/monosocialiconsfont.css">
-
-
-
-<link href="https://ramgo.li/index.xml" rel="alternate" type="application/rss+xml" title="Blog | Ram Goli" />
-
-
-<meta property="og:title" content="Hypothesis Testing With Simple Linear Regression" />
-<meta property="og:description" content="Understanding and using statistical measures when developing models" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ramgo.li/posts/simple-linear-regression/" /><meta property="article:published_time" content="2019-01-07T00:46:32-08:00"/>
-<meta property="article:modified_time" content="2019-01-07T00:46:32-08:00"/>
-
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
 
 <meta itemprop="name" content="Hypothesis Testing With Simple Linear Regression">
 <meta itemprop="description" content="Understanding and using statistical measures when developing models">
@@ -41,42 +19,67 @@
 
 
 <meta itemprop="keywords" content="" />
-
+<meta property="og:title" content="Hypothesis Testing With Simple Linear Regression" />
+<meta property="og:description" content="Understanding and using statistical measures when developing models" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ramgo.li/posts/simple-linear-regression/" />
+<meta property="article:published_time" content="2019-01-07T00:46:32-08:00"/>
+<meta property="article:modified_time" content="2019-01-07T00:46:32-08:00"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hypothesis Testing With Simple Linear Regression"/>
 <meta name="twitter:description" content="Understanding and using statistical measures when developing models"/>
-<meta name="twitter:site" content="@https://www.twitter.com/"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Hypothesis Testing With Simple Linear Regression</title>
+	<link rel="stylesheet" href="https://ramgo.li/css/style.min.568c54a56780af2a70c45272522247710b69dbfc080b315211fb98381e3796f8.css" integrity="sha256-VoxUpWeArypwxFJyUiJHcQtp2/wICzFSEfuYOB43lvg=">
+	
+	<link rel="stylesheet" href="https://ramgo.li/css/custom-style.css">
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://ramgo.li">Ram Goli</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://ramgo.li/posts/">Posts</a>
+				<a href="https://ramgo.li/about/">About</a>
+				<a href="https://ramgo.li/assets/resume.pdf">Resume</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/ramsgoli" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/ramsgoli/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://twitter.com/ramsgoli" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://ramgo.li/posts/">Posts</a></li>
+			<li><a href="https://ramgo.li/about/">About</a></li>
+			<li><a href="https://ramgo.li/assets/resume.pdf">Resume</a></li>
+		</ul>
+	</div>
 
 
-    </head>
-<body>
-    <nav class="main-nav">
-	
-		<a href='https://ramgo.li/'> <span class="arrow">←</span>Home</a>
-	
-
-	
-
-	
-		<a class="cta" href="https://ramgo.li/index.xml">Subscribe</a>
-	
-</nav>
-
-    <section id="wrapper">
-        
-        
-<article class="post">
-    <header>
-        <h1>Hypothesis Testing With Simple Linear Regression</h1>
-        <h2 class="subtitle">Understanding and using statistical measures when developing models</h2>
-        <h2 class="headline">
-        January 7, 2019
-        <br>
-        
-        </h2>
-    </header>
-    <section id="post-body">
-        
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jan 7, 2019</span></div>
+				<h1>Hypothesis Testing With Simple Linear Regression</h1>
+			</header>
+			<div class="content">
+				
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -104,7 +107,7 @@ MathJax.Hub.Config({
 });
 </script>
 
-<h2 id="is-there-a-relationship-between-a-father-s-height-and-his-son-s-height">Is there a relationship between a father&rsquo;s height and his son&rsquo;s height?</h2>
+<h2 id="is-there-a-relationship-between-a-father-s-height-and-his-son-s-height">Is there a relationship between a father&rsquo;s height and his son&rsquo;s height?<a href="#is-there-a-relationship-between-a-father-s-height-and-his-son-s-height" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
 <p>These kinds of questions and more are ones that we can answer with simple statistical tests.
 <img src="/img/simple-regression/plot.png" />
@@ -114,7 +117,7 @@ standpoint, plotting a male&rsquo;s height on the x-axis, and his son&rsquo;s he
 naked eye, it appears that there is an upward trend in the data; taller fathers tend to have
 taller sons, and vice versa.</p>
 
-<h2 id="linear-regression">Linear Regression</h2>
+<h2 id="linear-regression">Linear Regression<a href="#linear-regression" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
 <p>Using linear regression, we can come up with a simple linear model that can fit this data,
 and possibly allow us to make predictions about a son&rsquo;s height, given the father&rsquo;s height. Such a model would
@@ -131,16 +134,13 @@ the following model:
 $$\hat{Y} = \hat{\beta_0} + \hat{\beta_1}X$$
 where $\hat{\beta_0}$ and $\hat{\beta_1}$ are our estimations for the true parameters of the model
 $\beta_0$ and $\beta_1$, respectively.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 
-<pre><code class="language-python">import numpy as np
-
-poly = np.polyfit(x, y, deg=1, full=True)
-b1, b0 = poly[0]
-</code></pre>
-
+<span class="n">poly</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">deg</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">b1</span><span class="p">,</span> <span class="n">b0</span> <span class="o">=</span> <span class="n">poly</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></code></pre></div>
 <p>This is great. We now have estimated parameters for our model.</p>
 
-<h2 id="hypothesis-testing">Hypothesis Testing</h2>
+<h2 id="hypothesis-testing">Hypothesis Testing<a href="#hypothesis-testing" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
 <p>Because our model only contains one explanatory variable, it is easy to plot the data and use our
 eyes to guage whether there is a relationship between X and Y, i.e. $\beta_1 \neq 0$. In the real world,
@@ -155,18 +155,15 @@ dataset:</p>
 </ul>
 
 <p>In order to reject or accept our null hypothesis, we can perform a <code>t-test</code>.</p>
-
-<pre><code class="language-python">n = len(x)
-xBar = np.mean(x)
-se = np.sqrt((residuals / (n-2)) / np.sum([np.square(xi-xBar) for xi in x]))
-tTest = b1 / se
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">xBar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">se</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">residuals</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">))</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">xi</span><span class="o">-</span><span class="n">xBar</span><span class="p">)</span> <span class="k">for</span> <span class="n">xi</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]))</span>
+<span class="n">tTest</span> <span class="o">=</span> <span class="n">b1</span> <span class="o">/</span> <span class="n">se</span></code></pre></div>
 <p>In our dataset, the t-statistic comes to <strong>0.20012</strong>. This corresponds to a p-value of
 &lt; .05. We can then reject our null hypothesis, and say that there is a relationship between
 a father&rsquo;s height and a son&rsquo;s height.</p>
 
-<h2 id="evaluating-r-2">Evaluating $R^2$</h2>
+<h2 id="evaluating-r-2">Evaluating $R^2$<a href="#evaluating-r-2" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 
 <p>The $R^2$ is a statistical measure used in regression analysis to conclude how close the real
 data fits to our computed regression line. It is a ratio which tells the the <em>fraction of variance
@@ -180,42 +177,27 @@ $$SS_{tot} = \sum_i^n (y_i - \bar{y})^2$$</p>
 
 <p>Finally, we will define $R^2$, our <em>coefficient of determination</em> as follows
 $$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$</p>
-
-<pre><code class="language-python">residuals = poly[1][0]
-yBar = np.mean(y)
-tss = np.sum([np.square(yi-yBar) for yi in y])
-rsquared = 1 - residuals/tss
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">residuals</span> <span class="o">=</span> <span class="n">poly</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">yBar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="n">tss</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">yi</span><span class="o">-</span><span class="n">yBar</span><span class="p">)</span> <span class="k">for</span> <span class="n">yi</span> <span class="ow">in</span> <span class="n">y</span><span class="p">])</span>
+<span class="n">rsquared</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">residuals</span><span class="o">/</span><span class="n">tss</span></code></pre></div>
 <p>In our dataset, $R^2$ comes out to <strong>0.2511</strong>, which means 25% of the variability in
 son&rsquo;s height can be explained by their father&rsquo;s height, while the remaining 75% of
 the variability is due to random noise.</p>
 
-    </section>
-</article>
-
-<footer id="post-meta" class="clearfix">
-    <a href="https://twitter.com/ramsgoli">
-    <img class="avatar" src="https://ramgo.li/images/avatar.png">
-    <div>
-        <span class="dark">Ram Goli</span>
-        <span>Just a guy being a guy</span>
-    </div>
-    </a>
-    <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2framgo.li%2fposts%2fsimple-linear-regression%2f - Hypothesis%20Testing%20With%20Simple%20Linear%20Regression by @ramsgoli"><span class="icon-twitter"> tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-    </section>
-</footer>
-
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>654 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-01-07 00:46 -0800</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://ramgo.li/posts/new-what-is-devx/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>What Is DevX</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
 <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
@@ -236,84 +218,19 @@ the variability is due to random noise.</p>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-<ul id="post-list" class="archive readmore">
-    <h3>Read more</h3>
-
-    
-    
-    
-        <li>
-            <a href="/posts/new-what-is-devx/">What Is DevX<aside class="dates">Sep 14 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/24-hours-in-sf/">24 Hours in San Francisco<aside class="dates">Aug 26 2018</aside></a>
-        </li>
-    
-        <li>
-            <a href="/posts/the-beginning/">The Beginning<aside class="dates">Aug 23 2018</aside></a>
-        </li>
-    
-</ul>
-
-
-
-        <footer id="footer">
-    
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.facebook.com/">
-        circlefacebook
-    </a>
-    
-    <a class="symbol" href="https://www.github.com/ramsgoli/">
-        circlegithub
-    </a>
-    
-    <a class="symbol" href="https://www.twitter.com/">
-        circletwitterbird
-    </a>
-    
-
-
 </div>
+	</main>
 
-    
-    <p class="small">
-    
-        © Copyright 2019 Ram Goli
-    
-    </p>
-</footer>
-
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://ramgo.li/js/main.js"></script>
-<script src="https://ramgo.li/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://ramgo.li">Ram Goli</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ramgo.li/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-125743916-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
+	<script src="https://ramgo.li/js/main.min.35ccbf1cdceb91e4c64c06b5d009d6e2977fafe56beda7762febd4e67528d2ac.js" integrity="sha256-Ncy/HNzrkeTGTAa10AnW4pd/r+Vr7ad2L+vU5nUo0qw="></script>
 
 </body>
+
 </html>

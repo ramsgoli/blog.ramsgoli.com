@@ -1,52 +1,324 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Blog | Ram Goli</title>
-    <link>https://ramgo.li/posts/</link>
-    <description>Recent content in Posts on Blog | Ram Goli</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jan 2019 00:46:32 -0800</lastBuildDate>
-    
-	<atom:link href="https://ramgo.li/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Hypothesis Testing With Simple Linear Regression</title>
-      <link>https://ramgo.li/posts/simple-linear-regression/</link>
-      <pubDate>Mon, 07 Jan 2019 00:46:32 -0800</pubDate>
-      
-      <guid>https://ramgo.li/posts/simple-linear-regression/</guid>
-      <description>MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]], processEscapes: true, processEnvironments: true, skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], TeX: { equationNumbers: { autoNumber: &#34;AMS&#34; }, extensions: [&#34;AMSmath.js&#34;, &#34;AMSsymbols.js&#34;] } } });  MathJax.Hub.Queue(function() { // Fix  tags after MathJax finishes running. This is a // hack to overcome a shortcoming of Markdown. Discussion at // https://github.com/mojombo/jekyll/issues/199 var all = MathJax.Hub.getAllJax(), i; for(i = 0; i Is there a relationship between a father&amp;rsquo;s height and his son&amp;rsquo;s height?</description>
-    </item>
-    
-    <item>
-      <title>What Is DevX</title>
-      <link>https://ramgo.li/posts/new-what-is-devx/</link>
-      <pubDate>Fri, 14 Sep 2018 17:27:04 -0700</pubDate>
-      
-      <guid>https://ramgo.li/posts/new-what-is-devx/</guid>
-      <description>I&amp;rsquo;m currently serving as President of UCLA DevX this upcoming school year. We’ve recently felt the need to answer a few questions about ourselves and our mission, both to hold ourselves accountable and to inform the general public. These are questions that have not been answered since the club’s founding four quarters ago, but will hopefully clarify our intent for all parties involved. These are our guiding principles, values, and goals for the future.</description>
-    </item>
-    
-    <item>
-      <title>24 Hours in San Francisco</title>
-      <link>https://ramgo.li/posts/24-hours-in-sf/</link>
-      <pubDate>Sun, 26 Aug 2018 20:07:56 -0700</pubDate>
-      
-      <guid>https://ramgo.li/posts/24-hours-in-sf/</guid>
-      <description>This weekend, I had the pleasure of hosting my good friend Eric Siegel in the Bay Area. I wanted to show him around San Francisco - my favorite sights from the times I visited, the must-see tourist attractions, the classic SF experience. Eric was only in town for two nights, and I had to make sure that the little time he had here was lacking of a dull moment. So on Saturday morning at 10 am, we each packed a change of clothes, and set out to see what we could experience in 24 hours.</description>
-    </item>
-    
-    <item>
-      <title>The Beginning</title>
-      <link>https://ramgo.li/posts/the-beginning/</link>
-      <pubDate>Thu, 23 Aug 2018 20:10:33 -0700</pubDate>
-      
-      <guid>https://ramgo.li/posts/the-beginning/</guid>
-      <description>I&amp;rsquo;ve been meaning to create this blog for a long time now. The biggest two reasons that have been eating at my brain for a while now are as follows
+	<channel>
+		<title>Posts on Ram Goli</title>
+		<link>https://ramgo.li/posts/</link>
+		<description>Recent content in Posts on Ram Goli</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Mon, 07 Jan 2019 00:46:32 -0800</lastBuildDate>
+		<atom:link href="https://ramgo.li/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Hypothesis Testing With Simple Linear Regression</title>
+			<link>https://ramgo.li/posts/simple-linear-regression/</link>
+			<pubDate>Mon, 07 Jan 2019 00:46:32 -0800</pubDate>
+			
+			<guid>https://ramgo.li/posts/simple-linear-regression/</guid>
+			<description>MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]], processEscapes: true, processEnvironments: true, skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], TeX: { equationNumbers: { autoNumber: &#34;AMS&#34; }, extensions: [&#34;AMSmath.js&#34;, &#34;AMSsymbols.js&#34;] } } });  MathJax.Hub.Queue(function() { // Fix  tags after MathJax finishes running. This is a // hack to overcome a shortcoming of Markdown. Discussion at // https://github.com/mojombo/jekyll/issues/199 var all = MathJax.Hub.getAllJax(), i; for(i = 0; i Is there a relationship between a father&amp;rsquo;s height and his son&amp;rsquo;s height?</description>
+			<content type="html"><![CDATA[
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<h2 id="is-there-a-relationship-between-a-father-s-height-and-his-son-s-height">Is there a relationship between a father&rsquo;s height and his son&rsquo;s height?</h2>
+
+<p>These kinds of questions and more are ones that we can answer with simple statistical tests.
+<img src="/img/simple-regression/plot.png" />
+<br />
+The above plot contains 1082 data points, which we might call &ldquo;training examples&rdquo; from a learning
+standpoint, plotting a male&rsquo;s height on the x-axis, and his son&rsquo;s height on the y-axis. To the
+naked eye, it appears that there is an upward trend in the data; taller fathers tend to have
+taller sons, and vice versa.</p>
+
+<h2 id="linear-regression">Linear Regression</h2>
+
+<p>Using linear regression, we can come up with a simple linear model that can fit this data,
+and possibly allow us to make predictions about a son&rsquo;s height, given the father&rsquo;s height. Such a model would
+have the following form:
+$$Y = \beta_0 + \beta_1X + \epsilon$$
+where $\beta_1$ is the slope of our model, $\beta_0$ is the intercept, $\epsilon$ is a random
+variable which describes the noise in our model, $Y$ is the target value, and $X$ is a predictor value.
+<br/>
+Note that we only use one explanatory variable in this model, $X$, which represents the height
+of the father, in calculating our target value, the height of the son.
+<hr/>
+Using <strong>numpy</strong>, we can calculate <em>estimations</em> for $\beta_0$ and $\beta_1$, and then come up with
+the following model:
+$$\hat{Y} = \hat{\beta_0} + \hat{\beta_1}X$$
+where $\hat{\beta_0}$ and $\hat{\beta_1}$ are our estimations for the true parameters of the model
+$\beta_0$ and $\beta_1$, respectively.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+
+<span class="n">poly</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">deg</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">b1</span><span class="p">,</span> <span class="n">b0</span> <span class="o">=</span> <span class="n">poly</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></code></pre></div>
+<p>This is great. We now have estimated parameters for our model.</p>
+
+<h2 id="hypothesis-testing">Hypothesis Testing</h2>
+
+<p>Because our model only contains one explanatory variable, it is easy to plot the data and use our
+eyes to guage whether there is a relationship between X and Y, i.e. $\beta_1 \neq 0$. In the real world,
+we might have tens or hundreds of explanatory variables in our dataset, and we might want to
+examine the dataset for relationships between the variables, before
+trying to fit large, unecessay models. We can come up with two hypotheses for our height
+dataset:</p>
+
+<ul>
+<li>Null hypothesis: There is no relationship between a father&rsquo;s height and a son&rsquo;s height</li>
+<li>Alternate hypothesis: There is a relationship between a father&rsquo;s height and a son&rsquo;s height</li>
+</ul>
+
+<p>In order to reject or accept our null hypothesis, we can perform a <code>t-test</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">xBar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">se</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">residuals</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">))</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">xi</span><span class="o">-</span><span class="n">xBar</span><span class="p">)</span> <span class="k">for</span> <span class="n">xi</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]))</span>
+<span class="n">tTest</span> <span class="o">=</span> <span class="n">b1</span> <span class="o">/</span> <span class="n">se</span></code></pre></div>
+<p>In our dataset, the t-statistic comes to <strong>0.20012</strong>. This corresponds to a p-value of
+&lt; .05. We can then reject our null hypothesis, and say that there is a relationship between
+a father&rsquo;s height and a son&rsquo;s height.</p>
+
+<h2 id="evaluating-r-2">Evaluating $R^2$</h2>
+
+<p>The $R^2$ is a statistical measure used in regression analysis to conclude how close the real
+data fits to our computed regression line. It is a ratio which tells the the <em>fraction of variance
+explained</em>.</p>
+
+<p>We define the <em>residual sum of squares</em>, or $SS_{res}$, as follows
+$$SS_{res} = \sum_i^n (y_i - \hat{y_i})^2$$</p>
+
+<p>We define the <em>total sum of squares</em>, or $SS_{tot}$, as follows
+$$SS_{tot} = \sum_i^n (y_i - \bar{y})^2$$</p>
+
+<p>Finally, we will define $R^2$, our <em>coefficient of determination</em> as follows
+$$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">residuals</span> <span class="o">=</span> <span class="n">poly</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">yBar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="n">tss</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">yi</span><span class="o">-</span><span class="n">yBar</span><span class="p">)</span> <span class="k">for</span> <span class="n">yi</span> <span class="ow">in</span> <span class="n">y</span><span class="p">])</span>
+<span class="n">rsquared</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">residuals</span><span class="o">/</span><span class="n">tss</span></code></pre></div>
+<p>In our dataset, $R^2$ comes out to <strong>0.2511</strong>, which means 25% of the variability in
+son&rsquo;s height can be explained by their father&rsquo;s height, while the remaining 75% of
+the variability is due to random noise.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>What Is DevX</title>
+			<link>https://ramgo.li/posts/new-what-is-devx/</link>
+			<pubDate>Fri, 14 Sep 2018 17:27:04 -0700</pubDate>
+			
+			<guid>https://ramgo.li/posts/new-what-is-devx/</guid>
+			<description>I&amp;rsquo;m currently serving as President of UCLA DevX this upcoming school year. We’ve recently felt the need to answer a few questions about ourselves and our mission, both to hold ourselves accountable and to inform the general public. These are questions that have not been answered since the club’s founding four quarters ago, but will hopefully clarify our intent for all parties involved. These are our guiding principles, values, and goals for the future.</description>
+			<content type="html"><![CDATA[
+
+<p>I&rsquo;m currently serving as President of UCLA DevX this upcoming school year.
+We’ve recently felt the need to answer a few questions about ourselves and our
+mission, both to hold ourselves accountable and to inform the general public.
+These are questions that have not been answered since the club’s founding four
+quarters ago, but will hopefully clarify our intent for all parties involved.
+These are our guiding principles, values, and goals for the future.</p>
+
+<blockquote>
+<p>If you have any questions you’d like answered about DevX after reading this,
+please reach out to any of us on Facebook, email, in person, etc!</p>
+</blockquote>
+
+<h2 id="what-is-devx">What is DevX:</h2>
+
+<p>DevX is an umbrella organization for product teams, and a
+technology and entrepreneurship thought leader.</p>
+
+<h2 id="what-is-the-devx-mission">What is the DevX Mission:</h2>
+
+<p>To provide students real life experiences to turn
+theory into application and create products that people love. We give them an
+opportunity to go through the entire life-cycle of a product: from ideation to
+MVP to user acquisition.</p>
+
+<h2 id="what-separates-us-from-other-tech-clubs-on-campus">What separates us from other tech clubs on campus:</h2>
+
+<p>As a product development
+focused organization, our team structure is inspired directly from industry and
+our goals have more in common with new tech startups than student organizations.
+You will directly deal with many of these practical challenges and grapple with
+the consequences of product choices in a real way. But beyond development, we
+also seek to launch all our products and continuously evaluate them to maximise
+user experience. This adds deployment and maintenance to the lifecycle, all of
+which are key transferable skills to industry. We aren’t an engineering club; we
+are a constantly evolving club that recruits students across the spectrum to
+keep up with the requirements just like a growing startup!</p>
+
+<h2 id="what-do-we-do-on-a-daily-basis">What do we do on a daily basis:</h2>
+
+<p>The teams in our organization largely function
+as independent units. Depending on the team you are on, you might meet as a team
+once or a few times a week to go over the next tasks needed to build, analyze,
+and market your product. Teams usually set a goal for the quarter, and spend
+every week working towards achieving those goals, such as “Finish our MVP by the
+end of the quarter,” or “Release to our beta users and understand what we need
+to do next from their feedback.” We also hold a general meetings once a week as
+a whole club with different activities planned throughout the quarter. One of
+the meetings is for an internal demo day, where we share with other teams the progress
+you have made. Another meeting is reserved for our public Demo Day, where we
+invite students to come learn more about the products you are working on.</p>
+
+<h2 id="what-kind-of-people-does-devx-recruit">What kind of people does DevX recruit:</h2>
+
+<p>DevX recruits talented and passionate students who care about working as a team,
+learning new skills, and building things that matter. In the past, DevX broadly
+recruited for three positions: Designer, Developer, and Product Manager. The
+Designer was responsible for creating the UI and UX of the product. The
+Developer was responsible for implementing the designs, and building out the
+backend services of the product. The Product Manager was responsible for
+creating the product roadmap, and keeping their team on schedule.  We’ve
+recently felt limited by these strict roles, and are moving towards a more fluid
+recruiting system. We’ve identified roles that we think every team should have,
+but encourage people to brainstorm creative ways they can use their skills to
+help the team, and apply if interested!</p>
+
+<h2 id="what-do-we-do-besides-work-in-teams">What do we do besides work in teams:</h2>
+
+<p>Tech Talks, Speaker Series, Boba runs,
+internal hackathons (new), our famous Moonshots––we do a ton! One of our values
+is building a community and family within our club, and we are committed to
+finding ways to network and grow together.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>24 Hours in San Francisco</title>
+			<link>https://ramgo.li/posts/24-hours-in-sf/</link>
+			<pubDate>Sun, 26 Aug 2018 20:07:56 -0700</pubDate>
+			
+			<guid>https://ramgo.li/posts/24-hours-in-sf/</guid>
+			<description>This weekend, I had the pleasure of hosting my good friend Eric Siegel in the Bay Area. I wanted to show him around San Francisco - my favorite sights from the times I visited, the must-see tourist attractions, the classic SF experience. Eric was only in town for two nights, and I had to make sure that the little time he had here was lacking of a dull moment. So on Saturday morning at 10 am, we each packed a change of clothes, and set out to see what we could experience in 24 hours.</description>
+			<content type="html"><![CDATA[
+
+<p>This weekend, I had the pleasure of hosting my good friend <a href="https://www.facebook.com/profile.php?id=100013556977844&amp;hc_ref=ARTCibTsupEQodn4C6prs6WeRj8GaLwOEr693rnYlgNoNpAQu1fu80DNn25LQKkt8rk&amp;__tn__=lC-R">Eric Siegel</a> in the Bay Area. I wanted to show him around San Francisco - my favorite sights from the times I visited, the must-see tourist attractions, the classic SF experience. Eric was only in town for two nights, and I had to make sure that the little time he had here was lacking of a dull moment. So on Saturday morning at 10 am, we each packed a change of clothes, and set out to see what we could experience in 24 hours. Here&rsquo;s all that we accomplished.</p>
+
+<h2 id="the-dropoff">The Dropoff</h2>
+
+<p>After doing some hasty research prior to our departure, I had come to the conclusion that the <a href="https://www.sfmta.com/garages-lots/north-beach-garage">North Beach Parking Garage</a> would be the safest place to park a car overnight. For a full 24 hours, we would have to pay only $36. At exactly 12 pm on Saturday, we arrive at the parking garage, collect our belongings, and say farewell to the car.</p>
+
+<h2 id="the-cable-cars">The Cable Cars</h2>
+
+<p>Our first destination is the Powell/Mason Cable Car turnaround, to ride the leisurely SF cable cars. We board the car just a few minutes before it is ready to depart. Eric pulls his camera out of his bag.
+<img class="snap-image" src="/img/24-hours/cable.jpeg" /><br />
+And we&rsquo;re ready to go! Along the way, we see some sweet views of the Bay Bridge creeping in between tall buildings. We wave at European tourists, who generally wave back.</p>
+
+<h2 id="the-gardens">The Gardens</h2>
+
+<p>The cable car lets off at Union Square, and we&rsquo;re thrown into a swarm of shoppers lugging around large bags filled to the brim from stores who&rsquo;s names I can not pronounce. At this point, it&rsquo;s around 1 PM, and we&rsquo;re both very hungry. We throw some searches into Yelp, and come across a salad place called Mixt (think Chipotle for even healthier people). We pick up some food to go, walk across the street to the Yerba Buena gardens, and sit down on the grass with our meals.
+<img class="snap-image" src="/img/24-hours/lunch.jpeg" /><br />
+There is an Asian music festival taking place in the Gardens at the same time, so we chew on our dressed leaves and veggies while listening to an orchestra of child musicians.</p>
+
+<h2 id="the-lew">The Lew</h2>
+
+<p>After lunch, we head to the <a href="https://www.thecjm.org/">Contemporay Jewish Museum</a>. Eric is Jewish, and I love museums. Naturally, we had to visit.<br />
+The main attraction is a new exhibit titled <a href="https://www.thecjm.org/exhibitions/103">Lew the Jew and his Circle</a>. It details the life of a Jewish-American tattoo artist living in NYC in the early 1900s. Albert Morton Kurzman, or &ldquo;Lew the Jew,&rdquo; fought in the Spanish-American War, and learned the art of tattooing in the Phillipines. He brought the art back to states, so that kids like Eric and I could now stand and wonder how pissed our parents would be if we came back home with tattoos.</p>
+
+<h2 id="the-climb">The Climb</h2>
+
+<p>After exiting the museum feeling more rebellious than usual, we decide to take up the suggestion of our good friend <a href="https://www.facebook.com/bryson.levisay?fb_dtsg_ag=Adwws3Kyd9Y28sMB1vO9BKq3QYKuFTupJP4Z3Q0d_5kmCg%3AAdy-ClFfN2BHsq7NW6fkF1_JX52YjXce2CX_6cSaE1hDRA">Bryson Levisay</a> and walk from the Embarcadero, up the Filbert Steps, to Coit Tower. I silently beg my sweat glands to stay closed as we climb up the 31.5% grade vertical.<br />
+Upon reaching the top of the staircase, we wait in line to pay for our ticket, and then wait in line again to take the elevator to the top. The view is pristine. The wild breeze wipes the beads of sweat right off of my skin.
+<img src="/img/24-hours/coit.JPG" /></p>
+
+<h2 id="the-meal">The Meal</h2>
+
+<p>It is now approaching 6 pm, and we are yet again craving another meal. This time, in the heart of Little Italy, we sit down in a small Asian restaurant. A lady walks in demanding to use the restroom. The server, who speaks little English, asks that she leave. The lady cusses out everyone everyone in the restaurant and angrily storms out. Our friend <a href="https://www.facebook.com/paul.ramstad.5?fb_dtsg_ag=Adwws3Kyd9Y28sMB1vO9BKq3QYKuFTupJP4Z3Q0d_5kmCg%3AAdy-ClFfN2BHsq7NW6fkF1_JX52YjXce2CX_6cSaE1hDRA">Paul Ramstad</a>, who has graciously offered to house us for the night, walks in to meet us. We quickly pay the tab and leave.</p>
+
+<h2 id="the-show">The Show</h2>
+
+<p>Earlier in the day, I bought tickets to see <a href="http://stevetrevino.com/">Steve Trefino</a> perform at <a href="http://www.cobbscomedy.com/">Cobb&rsquo;s Comedy Club</a>. We head to the club and are seated near the back of a packed but intimate feeling room. At 7:30 pm sharp, the MC comes out to get us warmed up. He is gay and Latino, and isn&rsquo;t afraid to piss off some heads in the room with his hilarious insights into his vision of minotiry communities.<br />
+The headliner, Steve, sufficiently leaves us in tears by the end of the night. At one point, I am keeled over at the hip, ferociously belting out laughter, hoping that he takes a pause for me to catch my breath. It was devastatingly hilarious.</p>
+
+<h2 id="the-scoop">The Scoop</h2>
+
+<p>After the show ends, Eric, Paul, and I take to North Beach in search of something to satisfy our sweet tooth.
+We stumble into a gelato store, order ourselves a few scoops, and share our favorite lines from the show back and forth.</p>
+
+<h2 id="the-mission">The Mission</h2>
+
+<p>We deem the journey back to Paul&rsquo;s apartment in the Mission District too far to walk, and call an Uber to take us back.
+Paul preps us with the facts on his tiny living space during the ride over.<br><br>
+Once we arrive, we are pleasantly surprised. The place is just as small, if not smaller, as Paul had described. One bathroom, two bedrooms,
+and a room with a fridge and square countertop that was to be known as &lsquo;the kitchen.&rsquo; The monthly rates are outrageous. We witness the process of
+gentrification first hand, but collectively agree that there is nothing we can do. It is just the way it is now.<br><br>
+We play one of Steve&rsquo;s older shows on Netflix. We hear many of the same jokes&ndash;we are glad that we heard them first live. Too tired to venture back out
+into the city, we set up for the night and go to sleep.</p>
+
+<h2 id="the-morning">The Morning</h2>
+
+<p>We search for a cozy brunch spot in the mission. It is crazy how one moment, we are walking
+in the midst of a historically significant neighborhood with largely much of its history
+intact, but in the next we see skyscrapers and urbanization abound. The city has that jaggedness
+to it. Brunch was excellent as well.</p>
+
+<h2 id="the-departure">The Departure</h2>
+
+<p>23 hours and 58 minutes later, we are back at the car, punching in our ticket to avoid
+a large fine. We look back at the past 24 hours, at all the events that made up each memory.
+Incredible.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>The Beginning</title>
+			<link>https://ramgo.li/posts/the-beginning/</link>
+			<pubDate>Thu, 23 Aug 2018 20:10:33 -0700</pubDate>
+			
+			<guid>https://ramgo.li/posts/the-beginning/</guid>
+			<description>I&amp;rsquo;ve been meaning to create this blog for a long time now. The biggest two reasons that have been eating at my brain for a while now are as follows
  Life has gotten super hectic lately, and I feel that if I don&amp;rsquo;t slow down to recollect my thoughts/memories every once in a while, they will vanish. I&amp;rsquo;m a big believer in memories, and experiences. I really value the past, and my goal is that, here, I&amp;rsquo;ll be able to hold onto some of it.</description>
-    </item>
-    
-  </channel>
+			<content type="html"><![CDATA[<p>I&rsquo;ve been meaning to create this blog for a long time now. The biggest two reasons that have been
+eating at my brain for a while now are as follows</p>
+
+<ul>
+<li>Life has gotten super hectic lately, and I feel that if I don&rsquo;t slow down to recollect
+my thoughts/memories every once in a while, they will vanish. I&rsquo;m a big believer in memories,
+and experiences. I really value the past, and my goal is that, here, I&rsquo;ll be able to hold
+onto some of it.</li>
+<li>I feel that I still haven&rsquo;t found my real voice. I sometimes find that I
+act different around my different groups of friends, and I can&rsquo;t quite figure out why. Maybe it&rsquo;s beacuse
+I care too much about what people think of me, and I have this idea that <em>other</em> people have an ideal
+version of me, and I need to live up to that ideal. But I&rsquo;m not too big of a fan of that. Maybe here,
+I&rsquo;ll start to whittle away at the one voice that I really like, my voice.</li>
+</ul>
+
+<p>I used to read <em>a lot</em> of tech blog articles. And I still do. But lately, I&rsquo;ve been straying away from
+that weathered trail. It&rsquo;s been awesome. I&rsquo;ve been debating with my friends about
+really intriguing/mind-bending topics. I&rsquo;ve been trying to open up to my friends more. I go on Medium
+and read stories written by mothers who deal with the stress of post-labor. There&rsquo;s a lot of life out there.
+So much to experience!</p>
+
+<p>I&rsquo;m going to try and write frequently. Maybe once a week? Ideally everyday, but I&rsquo;m not really an idealist.
+I&rsquo;m just going to try my best.</p>
+
+<p>Cheers</p>
+]]></content>
+		</item>
+		
+	</channel>
 </rss>

@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Ram Goli</title>
+    <title>Ram Goli</title>
     <link>https://ramgo.li/</link>
-    <description>Recent content on Blog | Ram Goli</description>
+    <description>Recent content on Ram Goli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jan 2019 00:46:32 -0800</lastBuildDate>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 27 Jul 2019 14:19:09 -0700</lastBuildDate>
     
 	<atom:link href="https://ramgo.li/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hey there! Ram Goli here. 👋</title>
+      <link>https://ramgo.li/about/</link>
+      <pubDate>Sat, 27 Jul 2019 14:19:09 -0700</pubDate>
+      
+      <guid>https://ramgo.li/about/</guid>
+      <description>I&amp;rsquo;ve spent the past 21 years of my life as a persistent learner and shameless optimist. I&amp;rsquo;m known for always asking questions, challening my assumptions, and firmly maintaining an &amp;ldquo;anything is possible&amp;rdquo; attitude.
+My mission to engage in continuous learning has taken me to the sprawling beaches of Southern California, where I attend UCLA as a senior pursuing a B.S. in Computer Science. I&amp;rsquo;ve worked at a variety of organizations along the way, including Gorgias, PayPal, Inc, and Uber Technologies, Inc.</description>
+    </item>
     
     <item>
       <title>Hypothesis Testing With Simple Linear Regression</title>
