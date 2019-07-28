@@ -64,17 +64,21 @@ disqusShortname = "ramsg"
     name = "twitter"
     url = "https://twitter.com/ramsgoli"
 
+  [[params.social]]
+    name = "facebook"
+    url = "https://facebook.com/ram.goli.3"
+
 [menu]
 
   [[menu.main]]
     name = "Posts"
     url = "posts/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     name = "About"
     url = "about/"
-    weight = 20
+    weight = 10
 
   [[menu.main]]
     name = "Resume"
