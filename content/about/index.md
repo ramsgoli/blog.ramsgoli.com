@@ -23,4 +23,4 @@ I'm also a budding foodie, and I write alot on [Yelp](https://www.yelp.com/user_
 
 ___
 
-I'm always looking to solve the next significant challenge. If you are interested in working with me, feel free to shoot me an [email](mailto:ramsgoli@gmail.com)!
+I'm always looking to solve the next significant challenge. If you are interested in working with me, feel free to shoot me an [email](mailto:ramsgoli@gmail.com) or check out my [resume](/assets/resume.pdf)!
