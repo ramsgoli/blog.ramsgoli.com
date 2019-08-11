@@ -7,56 +7,111 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 27 Jul 2019 14:19:09 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 15:47:27 -0700</lastBuildDate>
     
 	<atom:link href="https://ramgo.li/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hey there! Ram Goli here. 👋</title>
-      <link>https://ramgo.li/about/</link>
-      <pubDate>Sat, 27 Jul 2019 14:19:09 -0700</pubDate>
+      <title>Confirmation Bias</title>
+      <link>https://ramgo.li/posts/confirmation-bias/</link>
+      <pubDate>Sat, 10 Aug 2019 15:47:27 -0700</pubDate>
       
-      <guid>https://ramgo.li/about/</guid>
-      <description>I&amp;rsquo;ve spent the past 21 years of my life as a persistent learner and shameless optimist. I&amp;rsquo;m known for always asking questions, challening my assumptions, and firmly maintaining an &amp;ldquo;anything is possible&amp;rdquo; attitude.
-My mission to engage in continuous learning has taken me to the sprawling beaches of Southern California, where I attend UCLA as a senior pursuing a B.S. in Computer Science. I&amp;rsquo;ve worked at a variety of organizations along the way, including Gorgias, PayPal, Inc, and Uber Technologies, Inc.</description>
+      <guid>https://ramgo.li/posts/confirmation-bias/</guid>
+      <description>We largely tune into the same news channels, follow the same twitter feeds, subscribe to the same youtube channels that feed into our already fine-tuned perception of the outside world, of the &amp;ldquo;other side.&amp;rdquo; We hang out with those who espouse the same beliefs we do, and are quick to dismiss the opinions coming from the opposite end of the spectrum.
+No individual is at fault for demonstrating such commonplace behavior.</description>
     </item>
     
     <item>
-      <title>Hypothesis Testing With Simple Linear Regression</title>
-      <link>https://ramgo.li/posts/simple-linear-regression/</link>
-      <pubDate>Mon, 07 Jan 2019 00:46:32 -0800</pubDate>
+      <title>The Universal Adapter</title>
+      <link>https://ramgo.li/posts/the-universal-adapter/</link>
+      <pubDate>Fri, 09 Aug 2019 23:47:45 -0700</pubDate>
       
-      <guid>https://ramgo.li/posts/simple-linear-regression/</guid>
-      <description>MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]], processEscapes: true, processEnvironments: true, skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], TeX: { equationNumbers: { autoNumber: &#34;AMS&#34; }, extensions: [&#34;AMSmath.js&#34;, &#34;AMSsymbols.js&#34;] } } });  MathJax.Hub.Queue(function() { // Fix  tags after MathJax finishes running. This is a // hack to overcome a shortcoming of Markdown. Discussion at // https://github.com/mojombo/jekyll/issues/199 var all = MathJax.Hub.getAllJax(), i; for(i = 0; i Is there a relationship between a father&amp;rsquo;s height and his son&amp;rsquo;s height?</description>
+      <guid>https://ramgo.li/posts/the-universal-adapter/</guid>
+      <description>The Universal Adapter, in my own words, possesses the unique trait of hyper-compatibility. Anyone can approach the Univeral Adapter, plug into them, and instantly be exposed to a source of warmth and friendship. A Universal Adapter is an idealized social construct - a human being capable of befriending anyone.
+Does the Universal Adapter exist?
+And if so, how is it possible? How can someone truly be friends with anyone?
+I&amp;rsquo;ve recently stumbled across the key to universal compatibility, thanks to the prior work of my new friend AB.</description>
     </item>
     
     <item>
-      <title>What Is DevX</title>
-      <link>https://ramgo.li/posts/new-what-is-devx/</link>
-      <pubDate>Fri, 14 Sep 2018 17:27:04 -0700</pubDate>
+      <title>Cognitive Dissonance</title>
+      <link>https://ramgo.li/posts/cognitive-dissonance/</link>
+      <pubDate>Thu, 08 Aug 2019 23:12:33 -0700</pubDate>
       
-      <guid>https://ramgo.li/posts/new-what-is-devx/</guid>
-      <description>I&amp;rsquo;m currently serving as President of UCLA DevX this upcoming school year. We’ve recently felt the need to answer a few questions about ourselves and our mission, both to hold ourselves accountable and to inform the general public. These are questions that have not been answered since the club’s founding four quarters ago, but will hopefully clarify our intent for all parties involved. These are our guiding principles, values, and goals for the future.</description>
+      <guid>https://ramgo.li/posts/cognitive-dissonance/</guid>
+      <description>The feeling of discomfort when your beliefs run counter to your behaviors.
+ It&amp;rsquo;s that itch that you can&amp;rsquo;t seem to scratch deep within the back of your mind. What do you do to get rid of it? You only have two options right? You either change your beliefs, or you change your behaviors.
+But what if you can&amp;rsquo;t just change either? You&amp;rsquo;ve become too comfortable with your behavior to justify doing anything else, and you&amp;rsquo;re too stubborn to let go of your beliefs so easily.</description>
     </item>
     
     <item>
-      <title>24 Hours in San Francisco</title>
-      <link>https://ramgo.li/posts/24-hours-in-sf/</link>
-      <pubDate>Sun, 26 Aug 2018 20:07:56 -0700</pubDate>
+      <title>There Is No Right Answer</title>
+      <link>https://ramgo.li/posts/there-is-no-right-answer/</link>
+      <pubDate>Wed, 07 Aug 2019 22:55:53 -0700</pubDate>
       
-      <guid>https://ramgo.li/posts/24-hours-in-sf/</guid>
-      <description>This weekend, I had the pleasure of hosting my good friend Eric Siegel in the Bay Area. I wanted to show him around San Francisco - my favorite sights from the times I visited, the must-see tourist attractions, the classic SF experience. Eric was only in town for two nights, and I had to make sure that the little time he had here was lacking of a dull moment. So on Saturday morning at 10 am, we each packed a change of clothes, and set out to see what we could experience in 24 hours.</description>
+      <guid>https://ramgo.li/posts/there-is-no-right-answer/</guid>
+      <description>The questions that bother me the most are the ones that I can never come up with an answer to. They leave behind a queasy aftertaste that I just can&amp;rsquo;t get rid of. I love being proven wrong in an argument, because the defeat will add something new to my reportoire of reasoning. But when we reach a stalemate, it feels queasy, and unsatisfactory. We made it so far, right to the edge of the cliff overlooking the eager blue waters below, but we won&amp;rsquo;t make the jump.</description>
     </item>
     
     <item>
-      <title>The Beginning</title>
-      <link>https://ramgo.li/posts/the-beginning/</link>
-      <pubDate>Thu, 23 Aug 2018 20:10:33 -0700</pubDate>
+      <title>I Made This</title>
+      <link>https://ramgo.li/posts/i-made-this/</link>
+      <pubDate>Tue, 06 Aug 2019 23:04:02 -0700</pubDate>
       
-      <guid>https://ramgo.li/posts/the-beginning/</guid>
-      <description>I&amp;rsquo;ve been meaning to create this blog for a long time now. The biggest two reasons that have been eating at my brain for a while now are as follows
- Life has gotten super hectic lately, and I feel that if I don&amp;rsquo;t slow down to recollect my thoughts/memories every once in a while, they will vanish. I&amp;rsquo;m a big believer in memories, and experiences. I really value the past, and my goal is that, here, I&amp;rsquo;ll be able to hold onto some of it.</description>
+      <guid>https://ramgo.li/posts/i-made-this/</guid>
+      <description>This morning, I made myself an avocado toast at work. I mashed up an entire avocado, sliced up the packaged hard boiled egg, toasted the bread, assembled each topping delicately, and even applied a medley of salt and pepper on top. After a challenging, five minutes of work, I sat down at the kitchen table with my creation and admired what I had put together. It was truly a masterpiece.</description>
+    </item>
+    
+    <item>
+      <title>I Gotta Go See About a Girl</title>
+      <link>https://ramgo.li/posts/i-gotta-go-see-about-a-girl/</link>
+      <pubDate>Mon, 05 Aug 2019 22:47:01 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/i-gotta-go-see-about-a-girl/</guid>
+      <description>Will Hunting has been gifted a prodigious brain. His mind is unlike anyone else&amp;rsquo;s before him. Yet instead of exercising his mental faculties to solve the next great mathematical challenges, he sets off for California in pursuit of the girl of his dreams.
+Will Hunting is a foolish man, right? Why would he throw away an opportunity of a lifetime, all for one girl?
+Well, what is more important for the soul - doing what one should do, or what one wants to do?</description>
+    </item>
+    
+    <item>
+      <title>If a Tree Falls</title>
+      <link>https://ramgo.li/posts/if-a-tree-falls/</link>
+      <pubDate>Sun, 04 Aug 2019 23:18:53 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/if-a-tree-falls/</guid>
+      <description>Every time I went out with friends, I would take a picture for my story. I needed to scroll through my feed, checking what everyone else was up to, how many people had seen my story.
+ If a tree falls in a forest and no one is around to hear it, does it make a sound?
+ As philosopher George Berkeley said in his work A Treatise Concerning the Principles of Human Knowledge, &amp;ldquo;The objects of sense exist only when they are perceived.</description>
+    </item>
+    
+    <item>
+      <title>Laugh</title>
+      <link>https://ramgo.li/posts/laugh/</link>
+      <pubDate>Sat, 03 Aug 2019 20:27:28 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/laugh/</guid>
+      <description>One of most beautiful things in the entire world is laughter. It doesn&amp;rsquo;t matter if you are black or white, male or female identifying, young or old. If you are faced with a moment in life that you find amusing, you let out a giggle, or a rowdy guffaw. Of course, the quirks of life that we find humorous differ person to person. Our perception of what is &amp;ldquo;funny&amp;rdquo; is shaped by a myriad of past experiences - of trauma, joy, excitement, fear.</description>
+    </item>
+    
+    <item>
+      <title>You Don&#39;t Have Time</title>
+      <link>https://ramgo.li/posts/you-dont-have-time/</link>
+      <pubDate>Fri, 02 Aug 2019 01:52:19 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/you-dont-have-time/</guid>
+      <description>Today&amp;rsquo;s writing is a rather short one - sort of emblematic of the topic of the piece.
+It&amp;rsquo;s 1:55 am. I&amp;rsquo;ve been meaning to write this piece all day, but I&amp;rsquo;ve only just gotten home and found some time for myself. I also need to get to sleep.
+Telling yourself that you have more time is one of the biggest lies you will ever tell yourself. More often than not, you don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Writing Changed My Life</title>
+      <link>https://ramgo.li/posts/writing-changed-my-life/</link>
+      <pubDate>Thu, 01 Aug 2019 20:11:50 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/writing-changed-my-life/</guid>
+      <description>Today marks day one of my month-long quest to paint my thoughts into words. Publicly. Truth is, I&amp;rsquo;ve been writing to myself all year. I created a bullet journal for myself at the start of 2019. I had never kept a journal before, never wrote down my thoughts, never sat down to question the ebbing of emotions and ideas that coursed through my mind. For most of my life, I had treated my subconscious as a tomb which could not be disturbed.</description>
     </item>
     
   </channel>

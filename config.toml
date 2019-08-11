@@ -10,7 +10,7 @@ pygmentsUseClasses  = true
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-125743916-1"
 disqusShortname = "ramsg"
 
 [author]
@@ -52,22 +52,6 @@ disqusShortname = "ramsg"
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/ramsgoli"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/ramsgoli/"
-
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/ramsgoli"
-
-  [[params.social]]
-    name = "facebook"
-    url = "https://facebook.com/ram.goli.3"
-
 [menu]
 
   [[menu.main]]
@@ -79,9 +63,4 @@ disqusShortname = "ramsg"
     name = "About"
     url = "about/"
     weight = 10
-
-  [[menu.main]]
-    name = "Resume"
-    url = "/assets/resume.pdf"
-    weight = 30
 

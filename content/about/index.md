@@ -22,5 +22,6 @@ several years, and I also compete on [UCLA's Men's Ultimate Frisbee Team](https:
 I'm also a budding foodie, and I write alot on [Yelp](https://www.yelp.com/user_details?userid=-suvTLALBAzOhXwLNpJjzw)!
 
 ___
-
-I'm always looking to solve the next significant challenge. If you are interested in working with me, feel free to shoot me an [email](mailto:ramsgoli@gmail.com) or check out my [resume](/assets/resume.pdf)!
+If you care about this stuff - my [email](mailto:ramsgoli@gmail.com), [resume](/assets/resume.pdf),
+[Twitter](https://twitter.com/ramsgoli), [LinkedIn](https://linkedin.com/in/ramsgoli), [GitHub](https://github.com/ramsgoli).
+Hit my line, I'd love to chat.
