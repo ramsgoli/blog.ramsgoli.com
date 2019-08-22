@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 10 Aug 2019 15:47:27 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 22:21:02 -0700</lastBuildDate>
     
 	<atom:link href="https://ramgo.li/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>questions</title>
+      <link>https://ramgo.li/tags/questions/</link>
+      <pubDate>Mon, 19 Aug 2019 22:21:02 -0700</pubDate>
+      
+      <guid>https://ramgo.li/tags/questions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>untagged</title>
       <link>https://ramgo.li/tags/untagged/</link>
-      <pubDate>Sat, 10 Aug 2019 15:47:27 -0700</pubDate>
+      <pubDate>Sun, 18 Aug 2019 21:17:15 -0700</pubDate>
       
       <guid>https://ramgo.li/tags/untagged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alignment</title>
+      <link>https://ramgo.li/tags/alignment/</link>
+      <pubDate>Mon, 12 Aug 2019 23:32:42 -0700</pubDate>
+      
+      <guid>https://ramgo.li/tags/alignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>untitledthoughts</title>
+      <link>https://ramgo.li/tags/untitledthoughts/</link>
+      <pubDate>Sun, 11 Aug 2019 22:06:04 -0700</pubDate>
+      
+      <guid>https://ramgo.li/tags/untitledthoughts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socialmedia</title>
+      <link>https://ramgo.li/tags/socialmedia/</link>
+      <pubDate>Sat, 10 Aug 2019 15:47:27 -0700</pubDate>
+      
+      <guid>https://ramgo.li/tags/socialmedia/</guid>
       <description></description>
     </item>
     
@@ -58,38 +94,11 @@
     </item>
     
     <item>
-      <title>socialmedia</title>
-      <link>https://ramgo.li/tags/socialmedia/</link>
-      <pubDate>Sun, 04 Aug 2019 23:18:53 -0700</pubDate>
-      
-      <guid>https://ramgo.li/tags/socialmedia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>friendship</title>
       <link>https://ramgo.li/tags/friendship/</link>
       <pubDate>Sat, 03 Aug 2019 20:27:28 -0700</pubDate>
       
       <guid>https://ramgo.li/tags/friendship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>laughter</title>
-      <link>https://ramgo.li/tags/laughter/</link>
-      <pubDate>Sat, 03 Aug 2019 20:27:28 -0700</pubDate>
-      
-      <guid>https://ramgo.li/tags/laughter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bulletjournal</title>
-      <link>https://ramgo.li/tags/bulletjournal/</link>
-      <pubDate>Thu, 01 Aug 2019 20:11:50 -0700</pubDate>
-      
-      <guid>https://ramgo.li/tags/bulletjournal/</guid>
       <description></description>
     </item>
     

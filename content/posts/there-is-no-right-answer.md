@@ -10,7 +10,7 @@ tags:
 
 The questions that bother me the most are the ones that I can never come up with an answer to.
 They leave behind a queasy aftertaste that I just can't get rid of. I love being proven wrong
-in an argument, because the defeat will add something new to my reportoire of reasoning.
+in an argument, because the defeat will add something new to my repertoire of reasoning.
 But when we reach a stalemate, it feels queasy, and unsatisfactory. We made it so far, right to the edge of the cliff
 overlooking the eager blue waters below, but we won't make the jump.\
 \

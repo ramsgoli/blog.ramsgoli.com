@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on Ram Goli</title>
+    <link>https://ramgo.li/tags/questions/</link>
+    <description>Recent content in questions on Ram Goli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 19 Aug 2019 22:21:02 -0700</lastBuildDate>
+    
+	<atom:link href="https://ramgo.li/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning To Ask</title>
+      <link>https://ramgo.li/posts/just-ask/</link>
+      <pubDate>Mon, 19 Aug 2019 22:21:02 -0700</pubDate>
+      
+      <guid>https://ramgo.li/posts/just-ask/</guid>
+      <description>Solving your own problems is next to impossible when you have no idea where to begin. This glaring issue strikes me so often at work, and even more so in my personal life. I am faced with some challenging hurdle to jump over, but I have no context to draw help from.
+I think the biggest blocker in these situations is my hesitancy to turn to someone else for help. There was a time when I was taking CS131 and was stuck on the third or fourth homework assignment for what felt like days.</description>
+    </item>
+    
+  </channel>
+</rss>

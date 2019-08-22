@@ -31,5 +31,5 @@ surfacing ideas that I don't even believe in, but believe important to talk abou
 \
 Confirmation bias is a dangerous trap that we all, myself included, often fall prey to. I mean, _know thine enemy_,
 or something like that, right? How are we supposed to defeat the enemy if we can't even listen to them, empathize with
-their arguments, and then construct the right points to take them down? Sometimes, (who knows), they may know somthing
+their arguments, and then construct the right points to take them down? Sometimes, (who knows), they may know something
 that we don't.
