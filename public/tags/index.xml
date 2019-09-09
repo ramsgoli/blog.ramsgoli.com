@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 19 Aug 2019 22:21:02 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2019 22:20:40 -0700</lastBuildDate>
     
 	<atom:link href="https://ramgo.li/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>untitledthoughts</title>
+      <link>https://ramgo.li/tags/untitledthoughts/</link>
+      <pubDate>Tue, 20 Aug 2019 22:20:40 -0700</pubDate>
+      
+      <guid>https://ramgo.li/tags/untitledthoughts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>questions</title>
@@ -36,15 +45,6 @@
       <pubDate>Mon, 12 Aug 2019 23:32:42 -0700</pubDate>
       
       <guid>https://ramgo.li/tags/alignment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>untitledthoughts</title>
-      <link>https://ramgo.li/tags/untitledthoughts/</link>
-      <pubDate>Sun, 11 Aug 2019 22:06:04 -0700</pubDate>
-      
-      <guid>https://ramgo.li/tags/untitledthoughts/</guid>
       <description></description>
     </item>
     
