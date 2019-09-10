@@ -1,7 +1,7 @@
 ---
 title: "Untitled Thoughts: On Giving Up"
 date: 2019-08-20T22:20:40-07:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 

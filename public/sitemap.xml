@@ -3,32 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ramgo.li/posts/</loc>
+    <lastmod>2019-08-20T22:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/</loc>
+    <lastmod>2019-08-20T22:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/tags/</loc>
+    <lastmod>2019-08-20T22:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/posts/on-giving-up/</loc>
+    <lastmod>2019-08-20T22:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/tags/untitledthoughts/</loc>
+    <lastmod>2019-08-20T22:20:40-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ramgo.li/posts/just-ask/</loc>
     <lastmod>2019-08-19T22:21:02-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ramgo.li/posts/</loc>
-    <lastmod>2019-08-19T22:21:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/</loc>
-    <lastmod>2019-08-19T22:21:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/tags/</loc>
-    <lastmod>2019-08-19T22:21:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ramgo.li/tags/questions/</loc>
     <lastmod>2019-08-19T22:21:02-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -39,7 +45,6 @@
   <url>
     <loc>https://ramgo.li/tags/untagged/</loc>
     <lastmod>2019-08-18T21:17:15-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -53,25 +58,18 @@
   </url>
   
   <url>
+    <loc>https://ramgo.li/tags/alignment/</loc>
+    <lastmod>2019-08-12T23:32:42-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ramgo.li/posts/motivation/</loc>
     <lastmod>2019-08-12T23:32:42-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ramgo.li/tags/alignment/</loc>
-    <lastmod>2019-08-12T23:32:42-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ramgo.li/posts/free-will/</loc>
     <lastmod>2019-08-11T22:06:04-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/tags/untitledthoughts/</loc>
-    <lastmod>2019-08-11T22:06:04-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -82,7 +80,6 @@
   <url>
     <loc>https://ramgo.li/tags/socialmedia/</loc>
     <lastmod>2019-08-10T15:47:27-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -98,18 +95,16 @@
   <url>
     <loc>https://ramgo.li/tags/thoughts/</loc>
     <lastmod>2019-08-08T23:12:33-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ramgo.li/posts/there-is-no-right-answer/</loc>
-    <lastmod>2019-08-07T22:55:53-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://ramgo.li/tags/ego/</loc>
     <lastmod>2019-08-07T22:55:53-07:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/posts/there-is-no-right-answer/</loc>
+    <lastmod>2019-08-07T22:55:53-07:00</lastmod>
   </url>
   
   <url>
@@ -120,7 +115,11 @@
   <url>
     <loc>https://ramgo.li/tags/success/</loc>
     <lastmod>2019-08-06T23:04:02-07:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ramgo.li/tags/freedom/</loc>
+    <lastmod>2019-08-05T22:47:01-07:00</lastmod>
   </url>
   
   <url>
@@ -129,14 +128,13 @@
   </url>
   
   <url>
-    <loc>https://ramgo.li/tags/freedom/</loc>
-    <lastmod>2019-08-05T22:47:01-07:00</lastmod>
-    <priority>0</priority>
+    <loc>https://ramgo.li/posts/if-a-tree-falls/</loc>
+    <lastmod>2019-08-04T23:18:53-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ramgo.li/posts/if-a-tree-falls/</loc>
-    <lastmod>2019-08-04T23:18:53-07:00</lastmod>
+    <loc>https://ramgo.li/tags/friendship/</loc>
+    <lastmod>2019-08-03T20:27:28-07:00</lastmod>
   </url>
   
   <url>
@@ -145,15 +143,8 @@
   </url>
   
   <url>
-    <loc>https://ramgo.li/tags/friendship/</loc>
-    <lastmod>2019-08-03T20:27:28-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ramgo.li/tags/laughter/</loc>
     <lastmod>2019-08-03T20:27:28-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -162,14 +153,13 @@
   </url>
   
   <url>
-    <loc>https://ramgo.li/posts/writing-changed-my-life/</loc>
+    <loc>https://ramgo.li/tags/bulletjournal/</loc>
     <lastmod>2019-08-01T20:11:50-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ramgo.li/tags/bulletjournal/</loc>
+    <loc>https://ramgo.li/posts/writing-changed-my-life/</loc>
     <lastmod>2019-08-01T20:11:50-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
