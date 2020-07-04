@@ -1,65 +1,78 @@
-baseURL = "https://ramgo.li"
+baseURL = "https://ramgo.li/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
 title = "Ram Goli"
-theme = "hermit"
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-125743916-1"
+theme = "hugo-ink"
+paginate = 5
 
-[author]
-  name = "Ram Goli"
+copyright = "© Copyright notice"
 
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+disqusShortname = "ramsg"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+	subtitle = "work in progress"
 
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
+	# Optional 64x64 avatar image.
+	avatar = "https://ramsgoliphotos.s3-us-west-1.amazonaws.com/9B0F693E-BD81-11EA-A5FB-0E2B95503E4F.png"
 
-  homeSubtitle = "UCLA student, software engineer, optimist"
-  # bgImg = ""  # Homepage background-image URL
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	customJS = ["js/analytics.js"]  # Custom JS scripts.
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-  relatedPosts = false  # Add a related content section to all single posts page
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
-  # Add custom css
-  customCSS = ["css/custom-style.css"]
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-[menu]
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 20
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/ramsgoli"
 
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 10
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/ramsgoli"
 
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/ramsgoli"
+
+[[params.social]]
+name = "Strava"
+icon = "wind"
+url = "https://www.strava.com/athletes/48965974"
+
+[[params.social]]
+name = "Spotify"
+icon = "music"
+url = "https://open.spotify.com/user/22ikirlrq7owqco3hmkvmpeha?si=nXwEOoUeTAeRTetNtqBdaQ"
+
+[taxonomies]
+   tag = "tags"

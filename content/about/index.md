@@ -1,27 +1,24 @@
 ---
-title: "Hey there! Ram Goli here. 👋"
-date: 2019-07-27T14:19:09-07:00
+title: "Howdy 👋"
+date: 2020-06-03T17:17:08-07:00
+type: "page"
 draft: false
+showthedate: false
 ---
 
-I've spent the past 21 years of my life as a persistent learner and shameless optimist.
+I've spent the past 22 years of my life as a persistent learner and shameless optimist.
 I'm known for always asking questions, challening my assumptions, and firmly maintaining an "anything is possible" attitude.
 
-My mission to engage in continuous learning has taken me to the sprawling beaches of Southern California, where I attend UCLA as a senior pursuing a B.S. in Computer Science.
-I've worked at a variety of organizations along the way, including [Gorgias](https://gorgias.io/), [PayPal, Inc](https://www.paypal.com/us/home),
-and [Uber Technologies, Inc.](https://www.uber.com/) as a software engineer intern, and at [UCLA DevX](https://ucladevx.com) as both a Product Manager and President.
-I'm passionate about building software that empowers people to succeed in their daily lives.
-I bring a holistic approach to the engineering process. My work is always guided by extensive research and a thorough understanding of the needs of stakeholders.
-___
+This past March of 2020, I graduated from UCLA with a B.S. in computer science.
+Prior to graduating, I've been a part of a variety of organizations, including [Gorgias](https://gorgias.io/), [PayPal](https://www.paypal.com/us/home),
+and [Uber Technologies](https://www.uber.com/) as a software engineer intern, [UCLA DevX](https://ucladevx.com) as both a Product Manager and President,
+and [USAC Facilities Commission](https://www.facebook.com/USAC.Facilities/) as a Committee Director.
+
+These days, you can find me living with my lovely parents in Petaluma, where I work
+for [Heap](https://heap.io) building next-gen product analytics tools and frequently [run](https://www.strava.com/athletes/48965974).
+I'm passionate about empowering people to succeed in their daily lives.
 
 > The Time Is Now
 
-Yes, that was my senior quote. I know, it's somewhat tame, but I truly believe that time is an invaluable resource, and I despise wasting it.
-I try to spend my time doing as many _different_ things as possible - I've played the piano, trumpet, and guitar for
-several years, and I also compete on [UCLA's Men's Ultimate Frisbee Team](https://www.facebook.com/UclaSmaugUltimate/) during the academic year.
-I'm also a budding foodie, and I write alot on [Yelp](https://www.yelp.com/user_details?userid=-suvTLALBAzOhXwLNpJjzw)!
+Yes, that was my senior quote. I know, it's somewhat tame, but I believe that time is an invaluable resource, and I despise wasting it. You should too!
 
-___
-If you care about this stuff - my [email](mailto:ramsgoli@gmail.com), [resume](/assets/resume.pdf),
-[Twitter](https://twitter.com/ramsgoli), [LinkedIn](https://linkedin.com/in/ramsgoli), [GitHub](https://github.com/ramsgoli).
-Hit my line, I'd love to chat.
