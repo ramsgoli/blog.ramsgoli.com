@@ -16,7 +16,7 @@ disqusShortname = "ramsg"
 	subtitle = "work in progress"
 
 	# Optional 64x64 avatar image.
-	avatar = "https://ramsgoliphotos.s3-us-west-1.amazonaws.com/9B0F693E-BD81-11EA-A5FB-0E2B95503E4F.png"
+	avatar = "/img/home/profile.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
@@ -24,7 +24,7 @@ disqusShortname = "ramsg"
 	featherIconsCDN = true
 
 	mode = "auto" # "dark" or "auto"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 	customJS = ["js/analytics.js"]  # Custom JS scripts.
 
